@@ -3,7 +3,7 @@
 User Function BANCO01 ()
 
     Local aArea := SB1-> (GetArea())
-    Local cMsg := ""
+    //Local cMsg := ""
 
     DbSelectArea("SB1")
     SB1->(DbSetOrder(1)) //posiciona no índice 1
@@ -16,6 +16,6 @@ User Function BANCO01 ()
     EndIf
 
     RestArea(aArea) //Fecha a tabela 
-    
+
 
 RETURN
