@@ -14,6 +14,8 @@ User Function BANCO01 ()
                         FWXFilial('SB1') + '000002',;
                         'B1_DESC'  )
 
+    Alert("Descrição do Produto: " + cMsg, "Aviso")                    
+
     RestArea(aArea) //Fecha a tabela 
 
 
