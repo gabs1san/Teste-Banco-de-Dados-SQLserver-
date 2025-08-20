@@ -1,6 +1,6 @@
 #INCLUDE 'protheus.ch'
 
-User Function BANCO01 ()
+User Function BANCO02 ()
 
     Local aArea := SB1-> (GetArea())
     Local cMsg := ""
